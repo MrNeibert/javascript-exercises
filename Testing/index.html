@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>this is a test</h2>
+</body>
+<script>
+
+const reverseString = function(text) {;
+ let string = text.toString();
+ let size = string.length;
+ let reversed = new Array();
+ if (size == undefined | size == 0) {
+  return "ERROR"
+ } else {
+ for (let i =0; i <= size; i++){
+  reversed.push(string.charAt(size -i)); }
+}
+ return reversed.join("")}
+
+console.log (reverseString());
+
+</script>
+
+</html>
